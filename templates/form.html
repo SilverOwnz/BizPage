@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Test Form</h1>
+    <form method="post" action="" novalidate>
+        {{ form.csrf_token }}
+        {{ form.name.label }}
+        {{ form.name }}
+        <br>
+        {{ form.description.label }}
+        {{ form.description }}
+        <br>
+        {{ form.hoursMon.label }}
+        {{ form.hoursMon }}
+        <br>
+        {{ form.hoursTues.label }}
+        {{ form.hoursTues }}
+        <br>
+        {{ form.hoursWed.label }}
+        {{ form.hoursWed }}
+        <br>
+        {{ form.hoursThurs.label }}
+        {{ form.hoursThurs }}
+        <br>
+        {{ form.hoursFri.label}}
+        {{ form.hoursFri }}
+        <br>
+        {{ form.hoursSat.label }}
+        {{ form.hoursSat }}
+        <br>
+        {{ form.hoursSun.label }}
+        {{ form.hoursSun }}
+        <br>
+        {{ form.address.label }}
+        {{ form.address }}
+        <br>
+        {{ form.atmosphere.label }}
+        {{ form.atmosphere }}
+        <br>
+        {{ form.paymentMode.label }}
+        {{ form.paymentMode }}
+        {{ form.submit }}
+    </form>
+
+</body>
+</html>
